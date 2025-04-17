@@ -1,0 +1,166 @@
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 95vh;
+}
+
+div.content {
+    background-color: #352d32;
+    color: #fff;
+    padding: 10px;
+    max-width: 40%;
+    /*box-shadow: 0px 0px 50px #9b186f;*/
+    text-align: left;
+}
+
+div.inner-content {
+    background-color: #352d32;
+    color: #fff;
+    padding: 10px;
+    max-width: 100%;
+    /*box-shadow: 0px 0px 50px #9b186f;*/
+    text-align: left;
+}
+
+body {
+    font-family: "verdana";
+    background-color: #786471;
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    background-color: #786471;
+    padding: 10px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #786471;
+    padding: 10px;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #352d32;
+    background-color: #ea64bd;
+    padding: 10px;
+    margin: 0px;
+}
+
+h4 {
+    font-size: 0.75rem;
+    background-color: #352d32;
+    color: #ea64bd;
+    padding: 5px;
+    margin: 0px;
+}
+
+a {
+    color: #ea64bd;
+}
+
+a:hover {
+    color: #9b186f;
+}
+
+hr {
+    border: 1px solid;
+}
+
+td {
+    border: 1px solid #fff;
+    padding: 8px;
+    text-align: center;
+}
+
+.td-links {
+    background-color: #ea64bd;
+    color: #fff;
+    font-weight: bold;
+}
+  
+th {
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ea64bd;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.nav-btn {
+    background-color: #ea64bd;
+    color: #352d32;
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.nav-btn:hover {
+    color: #ea64bd;
+    background-color: #786471;
+}
+
+.nav-parent {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.nav-parent .nav-btn {
+    flex: 1;
+    text-align: center;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #ea64bd;
+    color: #352d32;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-decoration: none;
+    z-index: 999;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.7;
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
+    background-color: #352d32;
+    color: #ea64bd;
+}
+
+html {
+    scroll-behavior: smooth;
+}
