@@ -124,6 +124,11 @@ table {
     background-color: #786471;
 }
 
+.nav-btn-2:hover {
+    color: #ea64bd;
+    background-color: #352d32;
+}
+
 .nav-parent {
     display: flex;
     margin-top: 10px;
