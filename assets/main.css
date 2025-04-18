@@ -6,28 +6,6 @@
     min-height: 95vh;
 }
 
-@media only screen and (min-width: 1080px) {
-    div.content {
-        background-color: #352d32;
-        color: #fff;
-        padding: 10px;
-        max-width: 40%;
-        /*box-shadow: 0px 0px 50px #9b186f;*/
-        text-align: left;
-    }
-}
-
-@media only screen and (max-width: 1080px) {
-    div.content {
-        background-color: #352d32;
-        color: #fff;
-        padding: 10px;
-        max-width: 100%;
-        /*box-shadow: 0px 0px 50px #9b186f;*/
-        text-align: left;
-    }
-}
-
 div.inner-content {
     background-color: #352d32;
     color: #fff;
@@ -176,4 +154,43 @@ table {
 
 html {
     scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 1080px) {
+    div.content {
+        background-color: #352d32;
+        color: #fff;
+        padding: 10px;
+        max-width: 40%;
+        /*box-shadow: 0px 0px 50px #9b186f;*/
+        text-align: left;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    div.content {
+        background-color: #352d32;
+        color: #fff;
+        padding: 10px;
+        max-width: 100%;
+        /*box-shadow: 0px 0px 50px #9b186f;*/
+        text-align: left;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    body {
+        font-size: 2rem;
+    }
+
+    .nav-btn {
+        font-size: 3rem;
+        padding: 10px;
+    }
+
+    .scroll-to-top {
+        width: 10rem;
+        height: 10rem;
+        font-size: 5rem;
+    }
 }
