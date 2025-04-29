@@ -185,6 +185,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.disclaimer {
+    font-size: 0.75rem;
+    text-align: justify;
+    text-align-last: justify;
+}
+
 /* MEDIA */
 
 @media only screen and (min-width: 1080px) {
@@ -207,7 +213,7 @@ html {
     }
 
     .nav-btn {
-        font-size: 3rem;
+        font-size: 2rem;
         padding: 10px;
     }
 
@@ -229,6 +235,31 @@ html {
     .mobile-hide {
         display: none !important;
       }
+    
+    h4 {
+    font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .disclaimer {
+        font-size: 1.5rem;
+        text-align-last: left;
+    }
+
+    hr {
+        border: 3px solid;
+    }
 }
 
 /* PSSF */
@@ -262,7 +293,7 @@ div.pssf div.inner-content {
 }
 
 #pssf hr {
-    border: 1px solid #f8e9df;
+    border-color: #f8e9df;
 }
 
 #pssf td {
@@ -316,5 +347,5 @@ div.pssc div.inner-content {
 }
 
 #pssf hr {
-    border: 1px solid #ffdfdf;
+    border-color: #ffdfdf;
 }
