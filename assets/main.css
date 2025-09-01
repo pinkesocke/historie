@@ -188,7 +188,7 @@ html {
 .disclaimer {
     font-size: 0.75rem;
     text-align: justify;
-    text-align-last: justify;
+    text-align-last: center;
 }
 
 /* MEDIA */
