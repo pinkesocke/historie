@@ -226,7 +226,7 @@ html {
     }
 
     .nav-btn {
-        font-size: 2rem;
+        font-size: 2.5rem;
         padding: 10px;
     }
 
@@ -254,7 +254,7 @@ html {
     }
 
     h3, .inner-btn {
-        font-size: 2.5rem;
+        font-size: 2.5rem !important;
     }
 
     h2 {
@@ -310,4 +310,15 @@ html {
 
 div.content-inverted > h1:hover {
     cursor: url('../historie.png'), auto;
+}
+
+/* PSSC */
+div.pssc-poster {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0.5em;
+}
+
+div.pssc-poster img {
+    border: 1px solid var(--pssf-rosa);
 }
